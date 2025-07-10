@@ -26,6 +26,8 @@ OF_ENABLE_LPTOOLS := 1
 #OF_USE_GREEN_LED := 1
 #OF_CLASSIC_LEDS_FUNCTION := 1
 
+# Custom pic for maintainers about section info
+OF_MAINTAINER := Samuel Kendall
 
 # OrangeFox GUI settings
 OF_SCREEN_H := 2400

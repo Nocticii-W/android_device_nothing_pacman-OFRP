@@ -86,9 +86,10 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export OF_SUPPORT_ALL_BLOCK_OTA_UPDATES=1
         export OF_FIX_OTA_UPDATE_MANUAL_FLASH_ERROR=1
 
-	# R12.1 Settings
-	export FOX_MAINTAINER_PATCH_VERSION="R12.1_InternalBeta"
-	export OF_MAINTAINER="Pacman-Development"
+	  # Version & Variant
+          export FOX_MAINTAINER_PATCH_VERSION="12"
+          export FOX_VARIANT="A15"
+          export FOX_BUILD_TYPE="Stable"
 
 	# Build VARs
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
